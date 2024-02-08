@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "first-web-part-06-dec-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/firstWebPart06Dec/FirstWebPart06DecWebPart.js",
+          "manifest": "./src/webparts/firstWebPart06Dec/FirstWebPart06DecWebPart.manifest.json"
+        }
+      ]
+    },
+    "crud-operations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudOperations/CrudOperationsWebPart.js",
+          "manifest": "./src/webparts/crudOperations/CrudOperationsWebPart.manifest.json"
+        }
+      ]
+    },
+    "dynamic-dropdown-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicDropdown/DynamicDropdownWebPart.js",
+          "manifest": "./src/webparts/dynamicDropdown/DynamicDropdownWebPart.manifest.json"
+        }
+      ]
+    },
+    "functional-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/functionalComponent/FunctionalComponentWebPart.js",
+          "manifest": "./src/webparts/functionalComponent/FunctionalComponentWebPart.manifest.json"
+        }
+      ]
+    },
+    "s-hare-point-a-pi-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sHarePointAPiCrud/SHarePointAPiCrudWebPart.js",
+          "manifest": "./src/webparts/sHarePointAPiCrud/SHarePointAPiCrudWebPart.manifest.json"
+        }
+      ]
+    },
+    "file-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileUpload/FileUploadWebPart.js",
+          "manifest": "./src/webparts/fileUpload/FileUploadWebPart.manifest.json"
+        }
+      ]
+    },
+    "handling-large-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/handlingLargeList/HandlingLargeListWebPart.js",
+          "manifest": "./src/webparts/handlingLargeList/HandlingLargeListWebPart.manifest.json"
+        }
+      ]
+    },
+    "get-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getListItems/GetListItemsWebPart.js",
+          "manifest": "./src/webparts/getListItems/GetListItemsWebPart.manifest.json"
+        }
+      ]
+    },
+    "weather-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/weatherApi/WeatherApiWebPart.js",
+          "manifest": "./src/webparts/weatherApi/WeatherApiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FirstWebPart06DecWebPartStrings": "lib/webparts/firstWebPart06Dec/loc/{locale}.js",
+    "CrudOperationsWebPartStrings": "lib/webparts/crudOperations/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "DynamicDropdownWebPartStrings": "lib/webparts/dynamicDropdown/loc/{locale}.js",
+    "FunctionalComponentWebPartStrings": "lib/webparts/functionalComponent/loc/{locale}.js",
+    "SHarePointAPiCrudWebPartStrings": "lib/webparts/sHarePointAPiCrud/loc/{locale}.js",
+    "FileUploadWebPartStrings": "lib/webparts/fileUpload/loc/{locale}.js",
+    "HandlingLargeListWebPartStrings": "lib/webparts/handlingLargeList/loc/{locale}.js",
+    "GetListItemsWebPartStrings": "lib/webparts/getListItems/loc/{locale}.js",
+    "WeatherApiWebPartStrings": "lib/webparts/weatherApi/loc/{locale}.js"
+  }
+}

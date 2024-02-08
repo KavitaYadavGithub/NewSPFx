@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "rich-text",
+    "libraryId": "2f89fe3c-07a6-4b11-b157-f1d06e96a0dd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "RichText",
+    "solutionShortDescription": "RichText description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
